@@ -1,0 +1,384 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a:visited{
+    background-color: rgb(32, 71, 131);
+    color: white;
+}
+#last-part a:hover{
+    background-color:white;
+    color: rgb(32, 71, 131);
+    border-radius: 10px;
+    padding:10px;
+
+
+}
+#last-part a{
+    padding:10px;
+    
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(38, 84, 136, 0.8);
+    padding:12px 16px;
+    background-color: rgb(53, 110, 163, 0.8);
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+#hearder header{
+    height:100px;
+}
+#headerlogo{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 20px;
+   
+   
+  
+
+}
+#logo1 img{
+    width:30px;
+    height:30px;
+    margin:10px;
+    margin-bottom: 5px;
+}
+#logo2 img{
+    width:30px;
+    height:30px;
+    margin:10px;
+    margin-bottom: 5px;
+}
+form{
+    margin:10px;   
+    margin-bottom: 5px;    
+}
+select{
+    width:100px;
+    height:30px;
+    border-color:rgb(43, 81, 138);
+    border-radius: 20px;
+}
+option{
+    color:rgb(43, 81, 138);
+
+}
+h1{
+   
+    text-transform: uppercase; 
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+    font-size: 60px;
+    color:rgb(32, 71, 131);
+    padding-top: 30px;
+    text-align: start;
+    padding-left:20px;
+    background-repeat: no-repeat;
+    
+}
+#main-menu {
+    background-color:rgb(53, 110, 163);
+}
+#main-menu ul {
+	display:flex;
+	justify-content:space-evenly;
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#main-menu li {
+	list-style: None;
+	padding: 0.1em 0.5em;
+}
+
+#main-menu a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 0.25em 1em;
+	text-transform: uppercase;
+	border-radius: 10px;
+    text-shadow: rgba(0,0,0,0.8) 0 1px 0;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    font-size:20px;
+
+}
+
+#main-menu a:hover {
+	background: rgb(125, 189, 241);
+}
+
+#main-menu li.current a {
+	background: white;
+	color: black;
+	text-shadow: none;
+}
+.home-header{
+    background-image:url(../images/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:70px;
+    padding: 120px 80px 50px 120px;
+    
+    color:white;
+    text-shadow: 8px 10px 15px rgba(38, 84, 136, 0.8);
+}
+
+.home-header blockquote{
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+    margin-top: 150px;
+    text-align: center;
+    color:rgba(62, 9, 97, 0.8);
+    text-shadow: rgba(228, 229, 231, 0.8) 5px 0;
+    letter-spacing: 5px;
+    
+}  
+
+.one-sentense{
+   
+    background-color: rgb(32, 71, 131);
+    border-radius: 10px;
+    color:rgba(40, 243, 250, 0.8);
+    
+    text-align: center;
+    padding:50px;
+    
+    line-height: 40px;
+    padding-left:40px;
+    padding-right: 40px;
+    font-size: 26px;
+    font-family: 'Marck Script', cursive;
+    letter-spacing: 3px;
+    margin: 50px 150px ;
+    
+    
+}
+
+.intro{
+    background-color: rgb(125, 189, 241, 0.5);
+    padding:50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(8, 47, 105);
+
+}
+.intro header{
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.intro p{
+    float: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-align: justify;
+}
+
+.cycle-slideshow{
+    
+    background-color:rgb(32, 71, 131);
+    border-radius: 10px;
+    margin: 30px 150px;
+    
+    max-width: 80%;
+    max-height: 80%;
+     
+
+}
+
+.cycle-slideshow img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 50px 100px ;
+    
+    
+    
+ 
+}
+    
+
+.cycle-slideshow img:hover{
+    width: 100%;
+    height: 100%;
+    
+    padding: 30px 80px ;
+}
+
+.detail-show{
+    background-color: rgb(125, 189, 241, 0.5);
+    
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(8, 47, 105);
+    padding-bottom: 40px;
+    height: auto;
+    
+
+}
+#detail-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding:40px;
+  
+}
+
+.items{
+    max-width: 33.3333%;
+    padding:40px;
+    
+    
+}
+.items img{
+    width: 100%;
+    height: 100%;
+    padding:30px 20px;
+    border-radius: 100%;
+   
+}
+.word{
+    text-align: center;
+   
+}
+
+h4{
+    font-size: 23px;
+    font-family: 'Marck Script', cursive;  
+}
+.word a{
+    color: rgb(32, 71, 131);
+    font-size: 18px;
+}
+
+.word a:hover{
+    color: rgb(9, 91, 94);
+    font-size: 18px;
+}
+
+
+
+
+
+#last-part{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(53, 110, 163, 0.6);
+    height:300px;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+}
+.customer{
+    margin-block-start: 3em;
+    display: flex;
+    flex-direction: column;
+   
+    text-decoration-line: None;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.work{
+    margin-block-start: 3em;
+    display: flex;
+    flex-direction: column;
+   
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.receivedeal{
+    margin-block-start: 3em;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+h6{
+    font-size: 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: white;
+}
+.form-email-element{
+    margin:10px;
+}
+.form-email-element input{
+    height:auto;
+    width: 300px;
+    border:1.2px solid rgba(13, 45, 82, 0.8);
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgba(13, 45, 82, 0.8);
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    
+}
+
+#confirm-email button{
+    padding:5px;
+    font-size: 18px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    border-radius: 10px;
+    color: rgb(32, 71, 131);
+    margin-left: 10px;
+    background-color: rgb(125, 189, 241,0.5);
+    margin-bottom: 20px;
+}
+#confirm-email button:hover{
+    background-color: rgb(32, 71, 131);
+    color:white;
+}
+.receivedeal label{
+    font-size: 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-left:10px;
+}
+
+
+
+
+
+#main-menu{
+	display: block;
+	width: 100%;
+	margin: 1em 0;
+	position: -webkit-sticky; /* Necessary for Safari/WebKit support */
+	position: sticky; /* Support for other web browsers */
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
